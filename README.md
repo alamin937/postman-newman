@@ -40,8 +40,23 @@ switch(code){
 } 
 <br>
 
+
+
 * Using the Pre-request Script
 <h1>Newman</h1>
-  
+  Install Command: npm install -g newman <br>
+Run Command: <br>
+newman run “Path/CollectionName.json” -e Path/EnvironmentName.json <br>
+newman run “Collection Link” -e “Path”/EnvironmentName.json <br>
+
+Report: <br>
+Install: npm install -g newman-reporter-html <br>
+	npm install -g newman-reporter-htmlextra <br>
+Run Command: <br>
+newman run “Collection Link” -e EnvironmentName.json -r cli,html <br>
+newman run “Collection Link” -e EnvironmentName.json -r cli,htmlextra <br>
+
+<h1> Newman Report </h1>
+<img src="https://serving.photos.photobox.com/30924709301ef9d56de23c315a68bc6abfd74b6b49c180f354756afb2ae28b4d2659aa74.jpg" alt="Girl in a jacket">
 </body>
 </html>
