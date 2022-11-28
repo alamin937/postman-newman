@@ -56,7 +56,11 @@ Run Command: <br>
 newman run “Collection Link” -e EnvironmentName.json -r cli,html <br>
 newman run “Collection Link” -e EnvironmentName.json -r cli,htmlextra <br>
 
+<h1>Tests</h1>
+<img width="100%" src="https://i.ibb.co/QY6b5F7/Screenshot-3.png" alt="Girl inhh a jacket">
+
 <h1> Newman Report </h1>
 <img src="https://i.ibb.co/Rc506xy/Screenshot-1.png" alt="Girl in a jacket">
+
 </body>
 </html>
